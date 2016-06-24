@@ -1,0 +1,21 @@
+html, body {
+  height: 100%;
+
+}
+.root{
+  height:100%;
+}
+
+body{
+  & >div:first-child{
+    height:100%;
+  }
+}
+@font-face {
+  font-family: 'Gotham Book';
+  src: local("☺"), url(//storage.googleapis.com/www.trylikes.com/assets/Gotham-Book-6aaa1adf7795e8639382fbe673e1e87a.woff) format("woff"),
+  url(//storage.googleapis.com/www.trylikes.com/assets/Gotham-Book-cb84f554a35792b2513ebc347493d0ac.ttf) format("truetype"),
+  url(//storage.googleapis.com/www.trylikes.com/assets/Gotham-Book-d9f799e9c93b90a9aee96e92d5c7ed0a.svg) format("svg");
+  font-weight: normal;
+  font-style: normal;
+}

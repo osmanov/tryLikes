@@ -1,0 +1,52 @@
+@import '~variables';
+
+.root {
+  height: 100%;
+}
+
+.blue {
+  background: url(//storage.googleapis.com/www.trylikes.com/assets/header-image-4-5aa450ff0614121495f8284c8ab63441.jpg) top center no-repeat;
+}
+
+.yellow {
+  background: url(//storage.googleapis.com/www.trylikes.com/assets/header-image-2-226c0393695c87b40f12c85c3864da03.jpg) top center no-repeat;
+}
+
+.green {
+  background: url(//storage.googleapis.com/www.trylikes.com/assets/header-image-3-4d280e79dca1fdd78c97de66d690776b.jpg) top center no-repeat;
+}
+
+.red {
+  background: url(//storage.googleapis.com/www.trylikes.com/assets/header-image-1-a95052bd744b7acdc63ee3dd03f8b8cd.jpg) top center no-repeat;
+}
+
+.folk {
+  height: 100%;
+  width:100%;
+  background-size: cover;
+}
+
+
+@media @screen-middle {
+  .root {
+    display: block;
+  }
+}
+
+
+@media @screen-large {
+  .root {
+    display: block;
+  }
+}
+
+
+@media @screen-extra-large {
+  .root {
+    display: flex;
+    flex-direction: row;
+  }
+  .folk {
+    width: 25%;
+  }
+}

@@ -1,0 +1,44 @@
+@import '~variables';
+
+.root {
+  height: 85px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  min-width: 430px;
+}
+
+.container {
+  width: 960px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  background: url(//storage.googleapis.com/www.trylikes.com/assets/Likes-logo-white-4f296b23034f1ed243cc91c1cb74297b.png) no-repeat;
+  height: 40px;
+  width: 130px;
+  background-size:122px 40px;
+}
+
+@media @screen-middle {
+  .logo {
+    height: 75px;
+    width: 291px;
+    background-size:100%;
+  }
+}
+
+
+.list {
+  font-family: @font-sans-serif;
+  font-size: @font-size-base;
+  color: @color-white;
+  &>a{
+    text-decoration: none;
+    color: @color-white;
+  }
+}
