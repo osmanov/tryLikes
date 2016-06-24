@@ -10,18 +10,6 @@ import Dislike from './containers/Dislike';
 
 const store = configureStore();
 
-class Testt extends React.Component {
-
-  render() {
-    return(
-      <div >
-       Hello
-      </div>
-    );
-  }
-
-};
-
 render(
   <Provider store={store}>
     <Router history={browserHistory}>
