@@ -11,9 +11,12 @@ Details:
 - [x] css for responsiveness (`header` and `layout banner with people`)
 - [x] don't use any css framework 
 
+### local development
+1. npm i
+2. npm start
+3. open in a browser `http://localhost:3000`
+
 ### Summary:
 clear time for today: 11h 31min 
-
-
 
 # [RESULT](http://osmanov.github.io/)
